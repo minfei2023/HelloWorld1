@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class HelloWorldApplication {
-	@RequestMapping(value="/")
+	@RequestMapping(value="/training/helloworld")
 	public String index() {
-		return "Hello World";
+		return "hello world!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldApplication.class, args);
